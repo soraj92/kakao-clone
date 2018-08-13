@@ -1,0 +1,67 @@
+.top_header_transparent {
+  background-color: transparent;
+}
+
+.profile .profile_header {
+  height: 80vh;
+  width: 100%;
+  background-image: url("https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/expressing_brand_in_material_2x1.jpg");
+  background-position: center center;
+  background-size: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile_header .profile_header_container {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+
+.profile_header_container img {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.profile .profile_header_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile_header_container input {
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile_actions {
+  display: flex;
+  justify-content: center;
+}
+.profile_action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.profile_action-circle i {
+  background-color: #d7d1d1;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.profile_action-title {
+  font-size: 12px;
+  font-weight: 600;
+}

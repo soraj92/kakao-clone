@@ -1,0 +1,48 @@
+.top_header {
+  background-color: #523737;
+  color: white;
+  padding: 5px 10px 15px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.top_header a {
+  color: white;
+}
+
+.top_header .header_top,
+.top_header .header_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_header .header_top {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.top_header .header_bottom {
+  margin: 0 10px;
+}
+
+.top_header .header_column {
+  width: 33%;
+}
+
+.top_header .header_column:last-child {
+  text-align: right;
+}
+
+.top_header .header_column:nth-child(2) {
+  text-align: center;
+}
+
+.top_header .header_number {
+  color: yellow;
+}
+
+.top_header .header_bottom .header_column:first-child {
+  color: rgba(255, 255, 255, 0.5);
+}
