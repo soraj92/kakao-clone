@@ -5,16 +5,19 @@
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  padding:10px 30px 5px 30px;
-  border-top:1px solid #c1c1c1;
+  padding: 10px 30px 5px 30px;
+  border-top: 1px solid #c1c1c1;
 }
 
 .tab-bar .tab_bar_tab {
   text-align: center;
   text-decoration: none;
-  color:#c1c1c1;
+  color: #c1c1c1;
+  transition: transform 0.3s linear;
 }
-
+.tab-bar .tab_bar_tab:hover {
+  transform: scale(1.1);
+}
 .tab-bar .tab_bar_tab i {
   display: block;
   margin-bottom: 5px;
@@ -26,5 +29,5 @@
 }
 
 .tab-bar .tab_bar_tab_selected {
-  color:#523737;
+  color: #523737;
 }
